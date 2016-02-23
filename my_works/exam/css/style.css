@@ -1,0 +1,268 @@
+/*GOOGLE FONTS*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,600);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,300);
+
+/*STYLES*/
+
+*, html, body{
+	margin: 0;
+	padding: 0;
+	font-family: "Lato";
+}
+
+header{
+	background: url(../images/bk_1.jpg) no-repeat top center;
+	background-size:cover;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+li.active{
+	background: none;
+}
+.navbar-brand{
+	padding-top: 55px;
+}
+.navbar-default .navbar-nav>li{
+	padding-top: 40px;
+	padding-right: 20px;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.navbar-default .navbar-nav>li>a {
+font-size: 15px;
+color: rgb(255, 254, 254);
+}
+header .heading{
+	margin-top: 225px;
+}
+header p{
+	max-width: 605px;
+	text-align: center;
+	margin:auto;
+	margin-bottom: 250px;
+	font-size: 22px;
+	color: rgb(255, 254, 254);
+}
+.circle{
+	margin: auto;
+	margin-bottom: 45px;
+	padding-top: 30px;
+	text-align: center;
+	border-radius: 50%;
+	width: 90px;
+	height: 90px;
+	border: 2px solid #8099a5;
+}
+.circle i{
+	font-size: 25px;
+	color: #8099a5;
+}
+.heading{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 48px;
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+.heading:after{
+	content: " ";
+	width:85px;
+	height:2px;
+	display: block;
+	margin: 45px auto;
+}
+
+.light{
+	color: rgb(255, 255, 255);
+}
+
+.light:after{
+	background:rgb(255, 255, 255);
+}
+
+.dark {
+	color: rgb(34, 34, 34);
+}
+
+.dark:after{
+	background:rgb(34, 34, 34);
+}
+
+.more{
+	background: url(../images/bk_3_02.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 110px;
+		/*background-color: #222222;*/
+}
+
+.services, .our_work{
+	padding-top: 115px;
+}
+
+.services__item{
+	text-align: center;
+	padding-left: 33px;
+	padding-right: 33px;
+	margin-bottom: 105px;
+}
+h4{
+	font-size: 24px;
+	color: rgb(34, 34, 34);
+	padding: 25px 0px 35px;
+
+}
+
+
+.services__item__img{
+	height: 150px;
+}
+.services__item__img img{
+	
+}
+.services__item p{
+	font-size: 16px;
+	line-height: 30px;
+
+}
+.more h3{
+	text-transform: uppercase;
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+}
+.more__thesis{
+	font-size: 22px;
+	line-height: 1.273;
+	color: rgb(255, 255, 255);
+	margin-top: 220px;
+	text-align: left;
+	}
+
+	.more__thesis a{
+		display: block;
+		margin-top: 67px;
+font-size: 18px;
+text-decoration: underline;
+color: rgb(255, 255, 255);
+	}
+
+.our_work__img img{
+	width: 370px;
+	height: 420px;
+}
+
+.our_work{
+	text-align: center;
+}
+.more__about{
+	display: inline-block;
+	margin: auto;
+	margin-top: 75px;
+	margin-bottom: 75px;
+	border: 2px solid #222222;
+	padding: 16px 145px;
+	font-size: 24px;
+	color: rgb(34, 34, 34);
+  text-transform: uppercase;
+}
+.more__about a{
+	color: rgb(34, 34, 34);
+}
+
+.get_in{
+	background: url(../images/bg_3.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.get_in{
+	padding-top: 115px;
+	text-align: center;
+}
+.icons{
+	text-align: center;
+}
+.icons a{
+	color: #fff;
+}
+.icons i{
+	font-size: 25px;
+	padding-right: 25px;
+}
+.contact-form{
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	padding-top: 65px;
+}
+
+.contact-form input[type="text"], .contact-form textarea{
+	color:#FFF;
+	font-style: italic;
+	display:block;
+	margin:5px 0px;
+	padding:10px;
+	width:100%;
+	background: transparent;
+	border: none;
+	border-bottom:2px solid #afafaf;
+}
+
+.contact-form input[type="text"]:focus, .contact-form textarea:focus{
+	background:rgba(255,255,255,0.1);
+}
+
+.contact-form textarea{
+	margin-top: 100px;
+}
+
+
+.contact-form input:-webkit-input-placeholder, .contact-form textarea:-webkit-input-placeholder{
+	color:#676767;
+}
+
+.contact-form input::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder{
+	color:#676767;
+}
+
+.contact-form input:-moz-placeholder, .contact-form textarea:-moz-placeholder{
+	color:#676767;
+}
+
+.contact-form input::-moz-placeholder, .contact-form textarea::-moz-placeholder{
+	color:#676767;
+}
+
+.form__send{
+	display: inline-block;
+	margin: auto;
+	margin-top: 45px;
+	margin-bottom: 75px;
+	border: 2px solid #fff;
+	padding: 16px 55px;
+	font-size: 24px;
+	color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+.form__send a{color:#fff;}
+
+.contact-form a:hover .form__send{
+	background: gray;
+}
+
+.our_work a:hover .more__about{
+	background: gray;
+}
+.get_in a:hover i{
+	color: #373ed7;
+}
+
+.div_hidden{
+	display:none;
+}
