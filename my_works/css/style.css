@@ -69,6 +69,16 @@ a {
 		color: #02639d;
 		font-weight: bold;
 		font-size: 18px;
+}
 
-	}
+.title img{
+	height: 150px;
+	float: right;
+	margin-top: -20px;
+}
+
+.clearfix{
+	clear: both;
+	margin-top: 80px;
+}
 
